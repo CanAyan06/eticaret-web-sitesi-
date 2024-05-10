@@ -1,0 +1,19 @@
+<mat-icon [matBadge]="basketList.length" matBadgeColor="warn" style="margin: 3rem;">shopping-cart</mat-icon>
+
+<div class="container">
+    @for (book of bookData; track $index) {
+    <div class="card">
+        <div class="left-side">
+            <img src="https://picsum.photos/170/170">
+        </div>
+        <div class="right-side">
+            <div>
+                <h4> {{ book?.name }} </h4>
+                <div> {{ book?.author }} </div>
+                <div> {{ book?.star }} </div>
+            </div>
+            <button mat-flat-button color="primary" (click)="addBasket(book)">Sepete Ekle</button>
+        </div>
+    </div>
+    }
+</div>
