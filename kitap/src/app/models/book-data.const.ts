@@ -1,4 +1,5 @@
 import { BookModel } from "./book-model.interface";
+import { categories } from "./catagories.const";
 
 export const BookData: BookModel[] = [
     {
@@ -7,7 +8,7 @@ export const BookData: BookModel[] = [
         "year": "1965",
         "star": "4.20",
         "imageUrl": "https://example.com/dune.jpg",
-        "category": "Science Fiction",
+        "category": categories.drama,
         "description": "A complex tale set in the distant future."
     },
     {
@@ -16,7 +17,7 @@ export const BookData: BookModel[] = [
         "year": "1949",
         "star": "4.16",
         "imageUrl": "https://example.com/1984.jpg",
-        "category": "Science Fiction",
+        "category": categories.adventure,
         "description": "A dystopian novel set in a totalitarian state."
     },
     {
@@ -25,7 +26,7 @@ export const BookData: BookModel[] = [
         "year": "1951",
         "star": "4.20",
         "imageUrl": "https://example.com/foundation.jpg",
-        "category": "Science Fiction",
+        "category": categories.science,
         "description": "The beginning of a vast galactic empire."
     },
     {
@@ -34,23 +35,23 @@ export const BookData: BookModel[] = [
         "year": "1979",
         "star": "4.21",
         "imageUrl": "https://example.com/hitchhikers.jpg",
-        "category": "Science Fiction",
+        "category": categories.adventure,
         "description": "An eccentric adventure across space."
     },
     {
         "name": "Neuromancer",
         "author": "William Gibson",
         "year": "1984",
-        "star": "3.89",
+        "star": "3",
         "imageUrl": "https://example.com/neuromancer.jpg",
-        "category": "Science Fiction",
+        "category":  categories.science,
         "description": "A pioneering cyberpunk novel."
     },
     {
         "name": "Ender's Game",
         "author": "Orson Scott Card",
         "year": "1985",
-        "star": "4.30",
+        "star": "5",
         "imageUrl": "https://example.com/endersgame.jpg",
         "category": "Science Fiction",
         "description": "A military science fiction novel."
@@ -59,7 +60,7 @@ export const BookData: BookModel[] = [
         "name": "Brave New World",
         "author": "Aldous Huxley",
         "year": "1932",
-        "star": "3.99",
+        "star": "4",
         "imageUrl": "https://example.com/bravenewworld.jpg",
         "category": "Science Fiction",
         "description": "A dystopian novel exploring a future society."
@@ -68,7 +69,7 @@ export const BookData: BookModel[] = [
         "name": "The War of the Worlds",
         "author": "H.G. Wells",
         "year": "1898",
-        "star": "3.81",
+        "star": "2",
         "imageUrl": "https://example.com/waroftheworlds.jpg",
         "category": "Science Fiction",
         "description": "An early science fiction novel depicting an alien invasion."
@@ -77,7 +78,7 @@ export const BookData: BookModel[] = [
         "name": "Snow Crash",
         "author": "Neal Stephenson",
         "year": "1992",
-        "star": "4.03",
+        "star": "1",
         "imageUrl": "https://example.com/snowcrash.jpg",
         "category": "Science Fiction",
         "description": "A post-cyberpunk novel set in a near-future Los Angeles."
@@ -86,7 +87,7 @@ export const BookData: BookModel[] = [
         "name": "The Left Hand of Darkness",
         "author": "Ursula K. Le Guin",
         "year": "1969",
-        "star": "4.07",
+        "star": "4",
         "imageUrl": "https://example.com/lefthandofdarkness.jpg",
         "category": "Science Fiction",
         "description": "A science fiction novel exploring themes of gender and sexuality."
@@ -95,7 +96,7 @@ export const BookData: BookModel[] = [
         "name": "Hyperion",
         "author": "Dan Simmons",
         "year": "1989",
-        "star": "4.22",
+        "star": "5",
         "imageUrl": "https://example.com/hyperion.jpg",
         "category": "Science Fiction",
         "description": "A space opera set in the far future."
@@ -104,7 +105,7 @@ export const BookData: BookModel[] = [
         "name": "Fahrenheit 451",
         "author": "Ray Bradbury",
         "year": "1953",
-        "star": "3.99",
+        "star": "4",
         "imageUrl": "https://example.com/fahrenheit451.jpg",
         "category": "Science Fiction",
         "description": "A dystopian novel set in a future where books are banned."
@@ -113,7 +114,7 @@ export const BookData: BookModel[] = [
         "name": "I, Robot",
         "author": "Isaac Asimov",
         "year": "1950",
-        "star": "4.19",
+        "star": "4",
         "imageUrl": "https://example.com/irobot.jpg",
         "category": "Science Fiction",
         "description": "A collection of interconnected short stories exploring robotics."

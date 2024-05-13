@@ -6,4 +6,5 @@ export interface BookModel {
     imageUrl?: string;
     category?: string;
     description?: string;
+    
 }
